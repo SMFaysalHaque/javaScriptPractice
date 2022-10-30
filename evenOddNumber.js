@@ -15,5 +15,7 @@ for(let i = 0; i < number.length; i++){
 // for(let k = 0; k < odd.length; k++){
 //     console.log(odd[k]);
 // }
-console.log(even);
-console.log(odd);
+
+console.log('All even number: ', even);
+console.log('All odd number: ', odd);
+
