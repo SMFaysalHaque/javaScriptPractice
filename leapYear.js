@@ -1,6 +1,6 @@
 function leapYear(years){
     let result;
-    if (years % 4 == 0 || years % 400 != 0){
+    if (years % 4 == 0 || years % 400 == 0){
         result = true;
     }
     else{
@@ -9,5 +9,5 @@ function leapYear(years){
     return result;
 }
 
-let inputYear = leapYear(2900);
+let inputYear = leapYear(2021);
 console.log(inputYear);
