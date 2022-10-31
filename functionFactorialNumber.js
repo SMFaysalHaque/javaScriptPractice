@@ -1,7 +1,7 @@
 function getFactorial(number){
     let factorial = 1;
     for(let i = 1; i <= number; i++){
-        factorial = factorial * i;
+        factorial = factorial * i;   
     }
     return factorial;
 }
@@ -11,3 +11,6 @@ console.log('First Factorial Number:', firstFactorialNumber);
 
 let secondFactorialNumber = getFactorial(7);
 console.log('First Factorial Number:', secondFactorialNumber);
+
+
+
