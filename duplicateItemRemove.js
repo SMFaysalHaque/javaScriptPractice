@@ -12,9 +12,8 @@ for(let i = 0; i < numbers.length; i++){
 console.log(unique);
 
 // with function:
-let uniqueName = [];
-
 function sameItem(allNames){
+    let uniqueName = [];
     for(let i = 0; i < allNames.length; i++){
         if(uniqueName.indexOf(allNames[i]) == -1){
             uniqueName.push(allNames[i]);
@@ -26,5 +25,6 @@ function sameItem(allNames){
 let names = ['fahad', 'fahim', 'azad', 'nayeem', 'fahad', 'azad', 'nayeem'];
 let uniqueOutput = sameItem(names);
 console.log(uniqueOutput);
+
 
 
