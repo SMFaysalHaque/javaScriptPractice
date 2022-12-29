@@ -82,10 +82,11 @@ for(let i = 0; i < number.length; i++){
     //     console.log(number[i]);
     // }
     // console.log(number[i]);
-    console.log(number[i]);
+    
     if(number[i] < 0){
         break;
     }
+    console.log(number[i]);
 }
 
 
